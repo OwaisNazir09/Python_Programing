@@ -1,0 +1,115 @@
+===================== Python Rules and Regulations =====================
+
+1. Indentation (Very Important)
+-----------------------------------------------------------------------------------------
+- Python uses indentation to define code blocks.
+- Use 4 spaces (or a tab) for indentation—but never mix tabs and spaces.
+- All statements inside loops, conditionals, functions, etc., must be indented.
+
+Example:
+    if 10 > 5:
+        print("Yes")  # Indented correctly
+
+Wrong (No indentation):
+    if 10 > 5:
+    print("Yes")  # This will cause an IndentationError
+
+
+2. Case Sensitivity
+-----------------------------------------------------------------------------------------
+- Python is case-sensitive.
+- Variable, variable, and VARIABLE are treated as different identifiers.
+
+Example:
+    name = "Owais"
+    Name = "Ali"
+    print(name)   # prints Owais
+    print(Name)   # prints Ali
+
+
+3. Comments
+-----------------------------------------------------------------------------------------
+- Use # for single-line comments.
+- Use triple quotes (''' or """) for multi-line or documentation comments.
+
+Example:
+    # This is a single-line comment
+
+    """
+    This is a
+    multi-line comment
+    """
+
+
+4. Variables
+-----------------------------------------------------------------------------------------
+- No need to declare the data type explicitly.
+- Variable names must:
+  - Start with a letter or underscore (_)
+  - Not start with a number
+  - Not contain spaces or special characters
+
+Valid:
+    name = "Owais"
+    _age = 21
+    rollNo123 = 45
+
+Invalid:
+    123name = "error"      # Invalid
+    my name = "Owais"      # Invalid
+
+
+5. End of Statement
+-----------------------------------------------------------------------------------------
+- Python doesn't need semicolons (;) at the end of lines.
+
+Correct:
+    print("Hello")
+
+Optional (but not preferred):
+    print("Hi");
+
+
+6. Function Definition
+-----------------------------------------------------------------------------------------
+- Use 'def' to define functions.
+- The function body must be indented.
+
+Example:
+    def greet():
+        print("Hello!")
+
+
+7. Code Blocks
+-----------------------------------------------------------------------------------------
+Code blocks come after a colon (:) and must be indented.
+
+Common places where indentation is needed:
+- if, elif, else
+- for, while loops
+- def, class, try, except blocks
+
+
+8. Naming Conventions (PEP8 Style Guide)
+-----------------------------------------------------------------------------------------
+- Use snake_case for variable and function names: user_name, get_data()
+- Use CamelCase for class names: MyClass, StudentInfo
+
+
+9. Importing Modules
+-----------------------------------------------------------------------------------------
+Use 'import' to bring in built-in or external modules.
+
+Example:
+    import math
+    print(math.sqrt(16))
+
+
+10. Running a Python File
+-----------------------------------------------------------------------------------------
+To run a file named hello.py, use this command in the terminal:
+
+    python hello.py
+
+
+=========================================================================================

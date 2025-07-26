@@ -1,0 +1,35 @@
+# ===================== Introduction to Python =====================
+
+#  What is Python?
+# ------------------------------------------------------------------
+# Python is a popular programming language created by Guido van Rossum 
+# and released in 1991.
+
+# It is widely used for:
+#   • Web development (server-side)
+#   • Software development
+#   • Mathematics and data analysis
+#   • System scripting and automation
+
+
+#  What Can Python Do?
+# ------------------------------------------------------------------
+# ✓ Create web applications (server-side)
+# ✓ Work alongside other software to automate workflows
+# ✓ Connect to database systems and handle files
+# ✓ Analyze big data and perform complex mathematical operations
+# ✓ Build rapid prototypes and production-level software
+
+
+#  Why Choose Python?
+# ------------------------------------------------------------------
+# ✓ Cross-platform: Runs on Windows, macOS, Linux, Raspberry Pi, etc.
+# ✓ Easy to read: Has a simple, English-like syntax
+# ✓ Concise: Requires fewer lines of code compared to other languages
+# ✓ Interactive: Uses an interpreter to execute code immediately
+# ✓ Flexible: Supports procedural, object-oriented, and functional programming
+
+# ==================================================================
+
+
+# The file extensions for the python files are (.py)
